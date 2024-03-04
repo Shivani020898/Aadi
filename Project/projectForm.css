@@ -1,0 +1,64 @@
+div {
+    display: flex;
+    justify-content: space-around;
+    background:linear-gradient(aqua,red,yellow);
+    animation: animateBg 4s linear infinite;
+  }
+
+  @keyframes animateBg{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+  } 
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border: 5px solid #f1f1f1;
+    text-align: center;
+    background-color: aqua;
+  }
+  h1 {
+    color: rgb(13, 104, 231);
+    text-align: center;
+    font-size: 70px;
+    font-weight:bolder;
+    /* padding-bottom: -20px;
+    padding-top: -10px; */
+  }
+  
+  input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0px;
+    border-radius: 5px;
+  }
+  form {
+    padding: 30px;
+  }
+  label {
+    color: rgb(16, 15, 15);
+    font: bold;
+    font-size: larger;
+  }
+  table th {
+    color: rgb(19, 17, 17);
+  }
+  
+  tr {
+    height: 5px;
+  }
+
+  /* .img{
+    background-image: url(mount.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  } */

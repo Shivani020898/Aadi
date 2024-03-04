@@ -1,0 +1,68 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="projectForm.css">
+   
+</head>
+<body>
+      
+    <h1 class="img">Employee Records</h1>
+
+<div>  
+    
+    <form id="form">
+          <label for="">Employee Name</label><br>
+        <input type="text" placeholder="Enter Student Name" id="Ename" required><br><br>
+
+        <label for="">Employee Id</label><br>
+        <input type="text" placeholder="Enter Employee Id" id="EId" required><br><br>
+
+        <label for="">Department</label><br>
+        <select name="" id="Department" required >
+            <option value="">Select Department</option>
+            <option value="Frontend">Frontend  </option>
+            <option value="Backend">Backend</option>
+            <option value="Full Stack">Full Stack</option>
+            
+        </select><br><br>
+        <label for="">Experience</label><br>
+        <input type="text" placeholder="Experience in years" id="Experience" required><br><br>
+
+        <label for="">Email Address</label><br>
+        <input type="email" placeholder="EnterEmail Address" id="mail" required><br><br>
+
+        <label for="">Mobile Number</label><br>
+        <input type="number" placeholder="Enter Mobile Number" id="number" required><br><br><br>
+        
+        <input type="Submit" id="submitButton" value="Submit">
+    </form>
+
+    <table id="t">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Employee Id</th>
+            <th>Department</th>
+            <th>Experience</th>
+            <th>Email Address</th>
+            <th>Mobile number</th>
+            <th>Role</th>
+            <th>Delete</th>
+                
+          </tr>
+        </thead>
+  
+        <tbody>
+          <!-- append data -->
+        </tbody>
+       </table>
+     
+    
+
+</div>    
+</body>
+</html>
+<script src="projectForm.js"></script>
